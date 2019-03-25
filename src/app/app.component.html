@@ -1,0 +1,8 @@
+<div *ngIf = check>
+  <!-- {{users['2']}} -->
+  <div *ngFor = "let user of users">
+    {{user.id}}
+    {{user.name}}
+  </div>
+</div>
+<router-outlet></router-outlet>
